@@ -31,7 +31,7 @@ scene.add(ambient);
 
 const loader = new GLTFLoader();
 loader.load(
-  '/public/apple0613/apple.gltf', // ✅ 替换为你自己的路径
+  '/apple0613/apple.gltf', // ✅ 替换为你自己的路径
   (gltf) => {
         let baseMesh = null;
         gltf.scene.traverse((child) => {
